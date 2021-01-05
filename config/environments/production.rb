@@ -101,6 +101,6 @@ Rails.application.configure do
     adress:'smtp.SendGrid.net',
     port:'587',
     authentication:'plain',
-    enable_starttle_auto:true
+    enable_starttls_auto:true
   }
 end
